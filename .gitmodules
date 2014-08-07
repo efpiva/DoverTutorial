@@ -1,0 +1,3 @@
+[submodule "Dover"]
+	path = Dover
+	url = git@github.com:efpiva/dover.git
