@@ -9,7 +9,7 @@ using Dover.Framework.Form;
 namespace DoverTutorial
 {
     [MenuEvent(UniqueUID ="doverTutForm")]
-    [FormAttribute("DoverTutorial.Form1", "Form1.b1f")]
+    [FormAttribute("QuickStart.Form1", "Form1.b1f")]
     public class Form1 : DoverUserFormBase
     {
         public Form1()
@@ -21,6 +21,10 @@ namespace DoverTutorial
         /// </summary>
         public override void OnInitializeComponent()
         {
+            this.Button0 = ((SAPbouiCOM.Button)(this.GetItem("1").Specific));
+            this.Button1 = ((SAPbouiCOM.Button)(this.GetItem("2").Specific));
+            this.OnCustomInitialize();
+
         }
 
         /// <summary>
@@ -29,5 +33,14 @@ namespace DoverTutorial
         public override void OnInitializeFormEvents()
         {
         }
+
+        private Button Button0;
+
+        private void OnCustomInitialize()
+        {
+
+        }
+
+        private Button Button1;
     }
 }

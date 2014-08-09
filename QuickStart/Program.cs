@@ -8,7 +8,7 @@ namespace DoverTutorial
 {
     [Menu(String="DoverTutorial", Type=BoMenuType.mt_POPUP, UniqueID="doverTut", FatherUID="43520")]
     [Menu(String="My Form", Type=BoMenuType.mt_STRING, UniqueID="doverTutForm", FatherUID="doverTut")]
-    [AddIn(Description="My Test App", B1SResource="DoverTutorial.DoverTutorial.b1s")]
+    [AddIn(Description="My Test App", B1SResource="QuickStart.QuickStart.b1s")]
     class Program
     {
         /// <summary>
