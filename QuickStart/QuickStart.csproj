@@ -46,7 +46,7 @@
     <Reference Include="SAPBusinessOneSDK" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DoverTutorial.b1s" />
+    <EmbeddedResource Include="QuickStart.b1s" />
     <None Include="Form1.b1f">
     </None>
     <Compile Include="Form1.b1f.cs">
