@@ -4,7 +4,7 @@ using Dover.Framework;
 using Dover.Framework.Attribute;
 using SAPbouiCOM;
 
-namespace DoverTutorial
+namespace XMLForm
 {
     [Menu(String="DoverTutorial", Type=BoMenuType.mt_POPUP, UniqueID="doverTut", FatherUID="43520")]
     [Menu(String="My Form", Type=BoMenuType.mt_STRING, UniqueID="doverTutForm", FatherUID="doverTut")]

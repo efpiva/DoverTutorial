@@ -6,10 +6,10 @@ using SAPbouiCOM;
 using Dover.Framework.Attribute;
 using Dover.Framework.Form;
 
-namespace DoverTutorial
+namespace XMLForm
 {
-    [MenuEvent(UniqueUID ="doverTutForm")]
-    [FormAttribute("QuickStart.Form1", "Form1.b1f")]
+    [MenuEvent(UniqueUID = "doverTutForm")]
+    [FormAttribute("QuickStart.Form1", "XMLForm.Form1.srf")]
     public class Form1 : DoverUserFormBase
     {
         public Form1()

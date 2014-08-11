@@ -31,7 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DoverTutorial.Program</StartupObject>
+    <StartupObject>XMLForm.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -89,12 +89,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="Form1.b1f">
-    </None>
-    <Compile Include="Form1.b1f.cs">
-      <DependentUpon>Form1.b1f</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
