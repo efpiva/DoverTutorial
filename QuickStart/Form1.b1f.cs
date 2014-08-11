@@ -6,7 +6,7 @@ using SAPbouiCOM;
 using Dover.Framework.Attribute;
 using Dover.Framework.Form;
 
-namespace DoverTutorial
+namespace QuickStart
 {
     [MenuEvent(UniqueUID ="doverTutForm")]
     [FormAttribute("QuickStart.Form1", "Form1.b1f")]
