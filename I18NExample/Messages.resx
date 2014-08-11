@@ -123,10 +123,43 @@
   <data name="BPLabel" xml:space="preserve">
     <value>Something</value>
   </data>
+  <data name="CardCode" xml:space="preserve">
+    <value>BP Code</value>
+  </data>
+  <data name="CardName" xml:space="preserve">
+    <value>BP Name</value>
+  </data>
+  <data name="DocEntry" xml:space="preserve">
+    <value>ID</value>
+  </data>
   <data name="Form1Label" xml:space="preserve">
     <value>My Label</value>
   </data>
   <data name="Form1Title" xml:space="preserve">
     <value>My i18n Form</value>
+  </data>
+  <data name="ItemCode" xml:space="preserve">
+    <value>Item Code</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="SlpCode" xml:space="preserve">
+    <value>Sales Person Code</value>
+  </data>
+  <data name="UDOLines" xml:space="preserve">
+    <value>Lines1</value>
+  </data>
+  <data name="UDOLines2" xml:space="preserve">
+    <value>Lines2</value>
+  </data>
+  <data name="UDOTitle" xml:space="preserve">
+    <value>My UDO</value>
   </data>
 </root>

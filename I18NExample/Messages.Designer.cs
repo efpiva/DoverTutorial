@@ -79,6 +79,33 @@ namespace I18NExample {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to BP Code.
+        /// </summary>
+        internal static string CardCode {
+            get {
+                return ResourceManager.GetString("CardCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BP Name.
+        /// </summary>
+        internal static string CardName {
+            get {
+                return ResourceManager.GetString("CardName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ID.
+        /// </summary>
+        internal static string DocEntry {
+            get {
+                return ResourceManager.GetString("DocEntry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to My Label.
         /// </summary>
         internal static string Form1Label {
@@ -93,6 +120,78 @@ namespace I18NExample {
         internal static string Form1Title {
             get {
                 return ResourceManager.GetString("Form1Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Item Code.
+        /// </summary>
+        internal static string ItemCode {
+            get {
+                return ResourceManager.GetString("ItemCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Item Name.
+        /// </summary>
+        internal static string ItemName {
+            get {
+                return ResourceManager.GetString("ItemName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Percentage.
+        /// </summary>
+        internal static string Percentage {
+            get {
+                return ResourceManager.GetString("Percentage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quantity.
+        /// </summary>
+        internal static string Quantity {
+            get {
+                return ResourceManager.GetString("Quantity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sales Person Code.
+        /// </summary>
+        internal static string SlpCode {
+            get {
+                return ResourceManager.GetString("SlpCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lines1.
+        /// </summary>
+        internal static string UDOLines {
+            get {
+                return ResourceManager.GetString("UDOLines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lines2.
+        /// </summary>
+        internal static string UDOLines2 {
+            get {
+                return ResourceManager.GetString("UDOLines2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to My UDO.
+        /// </summary>
+        internal static string UDOTitle {
+            get {
+                return ResourceManager.GetString("UDOTitle", resourceCulture);
             }
         }
     }

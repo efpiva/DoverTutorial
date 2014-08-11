@@ -98,6 +98,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="UDOForm.cs" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="SAPbobsCOM">
@@ -120,6 +121,16 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BusinessPartnerForm.srf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UDOForm.srf">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UDF.xml" />
+    <EmbeddedResource Include="UDO.xml" />
+    <EmbeddedResource Include="UDT.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
