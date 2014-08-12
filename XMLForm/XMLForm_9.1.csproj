@@ -70,9 +70,9 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Framework, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Framework, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Framework.dll</HintPath>
+      <HintPath>..\Dover_9.1\Framework.dll</HintPath>
     </Reference>
     <Reference Include="SAPBusinessOneSDK, Version=1.0.0.1, Culture=neutral, PublicKeyToken=c7c3cb60e45d119f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
