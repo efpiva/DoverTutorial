@@ -8,8 +8,6 @@ temp
 testAddins
 Certificate.snk
 *~
-publicKey.xml
 *.swp
-publicToken.txt
 TestResults
 Interop.SAPbobsCOM.dll
